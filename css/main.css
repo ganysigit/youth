@@ -1,0 +1,76 @@
+/* Global */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+/* Header */
+header {
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
+  border-bottom: 3px solid #ec6120;
+}
+
+
+header h1 {
+  padding: 0;
+  margin: 0;
+  margin-left: 130px;
+  float: left;
+  margin-top: 6px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header h1 span {
+  color: #ec6120;
+}
+header ul {
+  float: right;
+}
+header ul li {
+  display: inline;
+  padding-right: 15px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #2e2e2e;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 17px;
+}
+
+header ul li a:hover {
+  font-weight: bold;
+  color: #ec6120;
+}
+
+/* Showcase */
+#showcase {
+  min-height: 400px;
+  background: url(../img/gani.jpg) no-repeat 0 -200px;
+  text-align: center;
+}
+
+#showcase h1 {
+  margin: 0;
+  font-size: 55px;
+  padding-top: 100px;
+  color: whitesmoke;
+}
+
+#showcase p {
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+}
+
+
+/* post */

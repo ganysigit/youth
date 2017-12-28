@@ -19,7 +19,6 @@ header {
   border-bottom: 3px solid #ec6120;
 }
 
-
 header h1 {
   padding: 0;
   margin: 0;
@@ -55,7 +54,8 @@ header ul li a:hover {
 /* Showcase */
 #showcase {
   min-height: 400px;
-  background: url(../img/gani.jpg) no-repeat 0 -200px;
+  background: url(https://image.ibb.co/nMEoxG/IMG_0456.jpg) no-repeat 0 -200px;
+  background-size: 100%;
   text-align: center;
 }
 
@@ -71,6 +71,5 @@ header ul li a:hover {
   color: #fff;
   font-size: 25px;
 }
-
 
 /* post */

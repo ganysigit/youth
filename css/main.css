@@ -15,14 +15,14 @@ body {
 header {
   width: 100%;
   background: #fff;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-bottom: 3px solid #ec6120;
+  position: fixed;
 }
 
 header h1 {
   padding: 0;
   margin: 0;
-  margin-left: 130px;
   float: left;
   margin-top: 6px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -31,9 +31,11 @@ header h1 {
 header h1 span {
   color: #ec6120;
 }
+
 header ul {
   float: right;
 }
+
 header ul li {
   display: inline;
   padding-right: 15px;
@@ -53,7 +55,7 @@ header ul li a:hover {
 
 /* Showcase */
 #showcase {
-  min-height: 400px;
+  min-height: 450px;
   background: url(https://image.ibb.co/nMEoxG/IMG_0456.jpg) no-repeat 0 -200px;
   background-size: 100%;
   text-align: center;
@@ -70,6 +72,40 @@ header ul li a:hover {
   text-align: center;
   color: #fff;
   font-size: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+/* Newsletter */
+#newsletter {
+  overflow: hidden;
+  margin: 0;
+  background: #2e2e2e;
+  padding: 0;
+}
+
+#newsletter h1 {
+  float: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: whitesmoke;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input {
+  padding: 10px 10px;
+  border: none;
+}
+
+#newsletter button.button-1 {
+  padding: 10px 10px;
+  background: #ec6120;
+  border: none;
+  color: blanchedalmond;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /* post */
